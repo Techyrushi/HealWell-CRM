@@ -42,34 +42,34 @@ class AppServiceProvider extends ServiceProvider
 
             $getLang = array (
                 'en' => 'English',
-                'bn' => 'বাংলা',
-                'el' => 'Ελληνικά',
-                'pt' => 'Português',
-                'es' => 'Español',
-                'de' => 'Deutch',
-                'fr' => 'Français',
-                'nl' => 'Nederlands',
-                'it' => 'Italiano',
-                'vi' => 'Tiếng Việt',
-                'ru' => 'русский',
-                'tr' => 'Türkçe',
-                'ar' => 'عربي'
+                // 'bn' => 'বাংলা',
+                // 'el' => 'Ελληνικά',
+                // 'pt' => 'Português',
+                // 'es' => 'Español',
+                // 'de' => 'Deutch',
+                // 'fr' => 'Français',
+                // 'nl' => 'Nederlands',
+                // 'it' => 'Italiano',
+                // 'vi' => 'Tiếng Việt',
+                // 'ru' => 'русский',
+                // 'tr' => 'Türkçe',
+                // 'ar' => 'عربي'
             );
 
             $flag = array(
-                "en"=>"flag-icon-us",
-                "bn"=>"flag-icon-bd",
-                "el"=>"flag-icon-gr",
-                "pt"=>"flag-icon-pt",
-                "es"=>"flag-icon-es",
-                "de"=>"flag-icon-de",
-                "fr"=>"flag-icon-fr",
-                "nl"=>"flag-icon-nl",
-                "it"=>"flag-icon-it",
-                "vi"=>"flag-icon-vn",
-                "ru"=>"flag-icon-ru",
-                "tr"=>"flag-icon-tr",
-                'ar'=>"flag-icon-sa"
+                "en"=>"flag-icon-in",
+                // "bn"=>"flag-icon-bd",
+                // "el"=>"flag-icon-gr",
+                // "pt"=>"flag-icon-pt",
+                // "es"=>"flag-icon-es",
+                // "de"=>"flag-icon-de",
+                // "fr"=>"flag-icon-fr",
+                // "nl"=>"flag-icon-nl",
+                // "it"=>"flag-icon-it",
+                // "vi"=>"flag-icon-vn",
+                // "ru"=>"flag-icon-ru",
+                // "tr"=>"flag-icon-tr",
+                // 'ar'=>"flag-icon-sa"
             );
 
             $company_full_name = "No Company Imported";

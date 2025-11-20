@@ -5,5 +5,5 @@
         @lang('version'): {{ $ApplicationSetting->item_version; }}
     </div>
     <!-- Default to the left -->
-    @lang('Copyright') &copy; {{ date("Y") }} <a href="https://ambitiousit.net" target="_blank">ambitiousit.net</a>. @lang('All rights reserved').
+    @lang('Copyright') &copy; {{ date("Y") }} <a href="https://lirvonadigital.great-site.net/" target="_blank">Techyrushi</a>. @lang('All rights reserved').
 </footer>

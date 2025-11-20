@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="_token" content="{{ csrf_token() }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
-    <title>iDentSoft :: ambitiousit.net</title>
+    <title>HealWell :: Lirvona Digital - Dental Clinic Software Solution</title>
 
     <!-- Toastr CSS -->
     <link href="{{ asset('assets/css/toastr.min.css') }}" rel="stylesheet">
@@ -132,7 +132,7 @@
             <br>
             <div class="row ambitious-padding-left-right">
                 <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 border_gray grid_content padded background_white alert">
-                    <h2 class="column-title"><i class="fas fa-cog"></i> Install iDentSoft</h2>
+                    <h2 class="column-title"><i class="fas fa-cog"></i> Install HealWell</h2>
                     <hr>
                     <br>
                     @if(request()->get('wrong'))
@@ -234,7 +234,7 @@
                             </div>
 
                             <div class="form-group text-center">
-                                <button type="submit" class="btn btn-warning btn-lg install-margin-top" <?php if($install_allow == 0) echo "disabled"; ?> ><i class="fa fa-check" ></i> Install iDentSoft Now</button><br/><br/>
+                                <button type="submit" class="btn btn-warning btn-lg install-margin-top" <?php if($install_allow == 0) echo "disabled"; ?> ><i class="fa fa-check" ></i> Install HealWell Now</button><br/><br/>
                             </div>
                         </form>
                     </div>

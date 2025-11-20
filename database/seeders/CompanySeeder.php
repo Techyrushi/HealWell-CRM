@@ -18,7 +18,7 @@ class CompanySeeder extends Seeder
     public function run()
     {
         $company = Company::create([
-            'domain' => 'identsoft.ambitiousit.net',
+            'domain' => 'healwell.lirvonadigital.com',
             'enabled' => 1
         ]);
 
